@@ -1,0 +1,12 @@
+root = true
+
+# All files
+[*]
+indent_style = tab
+indent_size = 2
+line_endings = lf
+line_lenght = 80
+
+# Xml files
+[*.xml]
+indent_size = 2
