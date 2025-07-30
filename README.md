@@ -97,17 +97,17 @@ As you can see, the API is pretty straight-forward and consistent.
 
 The most important functions are:
 
-	- `Disas_Init(void)`: Initializes the disassembly engine.
-	- `Disas_SetInputFile(const string_t filename)`: Sets the input file to
-		disassemble.
-	- `Disas_SetOutputFile(const string_t outname)`: Sets the output file to write the
-		disassembled code to. It is written to stdout by default.
-	- `Disas_Disassemble(void)`: Disassembles the input file and returns a
-		string with the disassembled code.
-	- `Disas_WriteToOutput(const string_t output)`: Sets the output file's content
-		to the provided string.
-	- `Disas_Cleanup(void)`: Cleans up the disassembly engine and frees any
-		resources used.
+- `Disas_Init(void)`: Initializes the disassembly engine.
+- `Disas_SetInputFile(const string_t filename)`: Sets the input file to
+  disassemble.
+- `Disas_SetOutputFile(const string_t outname)`: Sets the output file to write the
+  disassembled code to. It is written to stdout by default.
+- `Disas_Disassemble(void)`: Disassembles the input file and returns a
+   string with the disassembled code.
+- `Disas_WriteToOutput(const string_t output)`: Sets the output file's content
+   to the provided string.
+- `Disas_Cleanup(void)`: Cleans up the disassembly engine and frees any
+   resources used.
 
 Every public function is prefixed with `Disas_` and follows `Pascal_Case`
 naming.
