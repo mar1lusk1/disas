@@ -5,7 +5,7 @@
 
 FILE *infile = NULL;
 
-void
+void INTERNAL
 set_infile_with_path(string_t path)
 {
 	FILE *fp = fopen(path, "rb");
@@ -14,7 +14,7 @@ set_infile_with_path(string_t path)
 	infile = fp;
 }
 
-void
+void INTERNAL
 remove_magic(const string_t str)
 {
 	/* Check for ELF magic: 0x7F 'E' 'L' 'F'. */

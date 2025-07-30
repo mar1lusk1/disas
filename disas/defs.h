@@ -15,7 +15,7 @@ typedef unsigned short	U16;
 typedef unsigned int	U32;
 typedef unsigned long long	U64;
 
-typedef char *string_t;
+typedef unsigned char* string_t;
 typedef U8	bool_t;
 
 extern FILE *infile;
