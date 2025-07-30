@@ -2,7 +2,7 @@
 #	define __DEFS_H__
 #	include <stdio.h>
 
-#		define VER "0.0.1 dev"
+#	define VER "0.0.1 dev"
 
 	enum arch_t {
 		ARCH_X86_64 = 64,
@@ -17,7 +17,7 @@
 	typedef char*				string_t;
 	typedef U8					bool_t;
 
-	FILE* INTERNAL infile;
+	extern FILE* infile;
 
 #		define ARCH		ARCH_X86_64
 	
