@@ -5,6 +5,7 @@
 #		include "defs.h"
 #		include <stdio.h>
 #		include <stdarg.h>
+#		include <stdlib.h>
 
 	static inline void INTERNAL
 	error(U8 ecode, const string_t fmt, ...)
@@ -18,4 +19,4 @@
 		if (ecode > 0) { exit(ecode); }
 	}
 
-#endif /* __LOGGING_H */
+#endif /* __LOGGING_H__ */
