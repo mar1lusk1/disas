@@ -29,7 +29,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\mario\source\repos\disas\disas\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\mario\source\repos\disas\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">

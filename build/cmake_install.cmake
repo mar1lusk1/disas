@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/mario/source/repos/disas/disas
+# Install script for directory: C:/Users/mario/source/repos/disas
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

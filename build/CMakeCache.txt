@@ -174,7 +174,7 @@ disas_BINARY_DIR:STATIC=C:/Users/mario/source/repos/disas/build
 disas_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-disas_SOURCE_DIR:STATIC=C:/Users/mario/source/repos/disas/disas
+disas_SOURCE_DIR:STATIC=C:/Users/mario/source/repos/disas
 
 
 ########################
@@ -233,7 +233,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/mario/source/repos/disas/disas
+CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/mario/source/repos/disas
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
