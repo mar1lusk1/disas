@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(disas C)
 
-set(CMAKE_C_STANDARD 14)
+set(CMAKE_C_STANDARD 99)
 
 # Add the source files
 set(SOURCES

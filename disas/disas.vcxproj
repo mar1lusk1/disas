@@ -135,6 +135,7 @@
     <ClInclude Include="arch.h" />
     <ClInclude Include="defs.h" />
     <ClInclude Include="fileutils.h" />
+    <ClInclude Include="i386.h" />
     <ClInclude Include="logging.h" />
     <ClInclude Include="magic.h" />
     <ClInclude Include="x86_64.h" />

@@ -1,0 +1,3 @@
+C:/Users/mario/source/repos/disas/build/CMakeFiles/disas.dir
+C:/Users/mario/source/repos/disas/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/mario/source/repos/disas/build/CMakeFiles/ZERO_CHECK.dir

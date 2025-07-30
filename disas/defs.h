@@ -1,27 +1,27 @@
 #ifndef __DEFS_H__
-#	define __DEFS_H__
-#	include <stdio.h>
+#define __DEFS_H__
 
-#	define VER "0.0.1 dev"
+#include <stdio.h>
 
-	enum arch_t {
-		ARCH_X86_64 = 64,
-		ARCH_I386 = 32,
-	};
+#define VER			"0.0.1 dev"
 
-	typedef unsigned char		U8;
-	typedef unsigned short		U16;
-	typedef unsigned int		U32;
-	typedef unsigned long long  U64;
+enum arch_t {
+	ARCH_X86_64 = 64,
+	ARCH_I386 = 32,
+};
 
-	typedef char*				string_t;
-	typedef U8					bool_t;
+typedef unsigned char	U8;
+typedef unsigned short	U16;
+typedef unsigned int	U32;
+typedef unsigned long long	U64;
 
-	extern FILE* infile;
+typedef char *string_t;
+typedef U8	bool_t;
 
-#		define ARCH		ARCH_X86_64
-	
-#		define true			1
-#		define false		0
+extern FILE *infile;
 
-#endif // __DEFS_H__
+#define ARCH		ARCH_X86_64
+#define true		1
+#define false		0
+
+#endif /* __DEFS_H__ */
